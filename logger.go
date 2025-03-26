@@ -24,6 +24,12 @@
 	- logger.PanicHandler()
 	// main() -> defer logger.PanicHandler()
 	// Damit Panics auch in der log file angezeigt werden
+	
+	git tag v1.1.0
+	git push origin v1.1.0
+
+	go get github.com/notmajathebee/GoLogger@latest
+	go get -u github.com/notmajathebee/GoLogger
 */
 
 package loggerr
