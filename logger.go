@@ -32,7 +32,7 @@
 	go get -u github.com/notmajathebee/GoLogger
 */
 
-package loggerr
+package logger
 
 import (
 	"fmt"
